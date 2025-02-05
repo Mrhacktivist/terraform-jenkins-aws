@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Pull the Terraform code from GitHub repository
-                git 'https://github.com/Mrhacktivist/terraform-jenkins-aws'
+                git 'https://github.com/Mrhacktivist/terraform-jenkins-aws.git'
             }
         }
 
